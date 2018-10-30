@@ -6,10 +6,10 @@ function Welcome(props) {
       // 此处注释的写法 
       <div className="shopping-list">
         {/* 此处 注释的写法 必须要{}包裹 */}
-        <h1>hello {props.name}</h1>
+        <h1>欢迎使用测试页面 {props.name}</h1>
         <ul>
-          <li>world</li>
-          <li>ian</li>
+          <li>Hello World</li>
+          <li>just test !!!!</li>
         </ul>
       </div>
     )

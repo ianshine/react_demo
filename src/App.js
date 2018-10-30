@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Welcome from './Welcome';
+import Welcome from './Function/Welcome';
+import Button from './Function/Button';
 
 class App extends React.Component {
   constructor(props) {
@@ -43,6 +44,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+
+        {/* 此处注释的写法 必须要{}包裹：另外两个组件 */}
+        <div>
+          <Welcome/>
+          <Button/>
+        </div>
+
       <h2>查询用户是否存在功能</h2>
         <form onSubmit={this.handleSubmit}>
           <label>
@@ -73,11 +81,7 @@ class App extends React.Component {
 
           <input type="submit" value="Submit" />
         </form>
-        
-        //另外一个组件
-        <div>
-          <Welcome/>
-        </div>
+      
       </div>
     );
   }
