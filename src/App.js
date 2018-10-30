@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Welcome from './Welcome';
 
 class App extends React.Component {
   constructor(props) {
@@ -72,6 +73,11 @@ class App extends React.Component {
 
           <input type="submit" value="Submit" />
         </form>
+        
+        //另外一个组件
+        <div>
+          <Welcome/>
+        </div>
       </div>
     );
   }
