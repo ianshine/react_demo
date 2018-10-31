@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Welcome from './Function/Welcome';
 import Button from './Function/Button';
+// import ReduxCode from './Function/ReduxCode'; 
+// import AppTest from './ReduxTest/AppTest';
 
 class App extends React.Component {
   constructor(props) {
