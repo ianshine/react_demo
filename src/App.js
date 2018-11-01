@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Welcome from './Function/Welcome';
 import Button from './Function/Button';
-// import ReduxCode from './Function/ReduxCode'; 
-// import AppTest from './ReduxTest/AppTest';
 
 class App extends React.Component {
   constructor(props) {
@@ -50,7 +48,7 @@ class App extends React.Component {
         {/* 此处注释的写法 必须要{}包裹：另外两个组件 */}
         <div>
           <Welcome/>
-          <Button/>
+          <Button/>  
         </div>
 
       <h2>查询用户是否存在功能</h2>
