@@ -5,6 +5,7 @@ import ReduxApp from './ReduxTest/ReduxApp';
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducer from './ReduxTest/index.reducer'
+import TodoList from './AntDesgin/TodoList';
 import Welcome from './Function/Welcome';
 
 
@@ -17,7 +18,8 @@ ReactDOM.render(
     <Provider store={store}>
         <div>
             <App/>
-            <ReduxApp />
+            <ReduxApp/>
+            <TodoList/>
         </div>
     </Provider>, 
     document.getElementById('root'));
