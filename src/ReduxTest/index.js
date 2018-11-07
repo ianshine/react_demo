@@ -8,15 +8,15 @@ import { Provider } from 'react-redux'
 import reducer from './index.reducer'
 
 
-// ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 
 //创建store
-const store = createStore(reducer);
+// const store = createStore(reducer);
 
-ReactDOM.render(
-    <Provider store={store}>
-        <ReduxApp />
-    </Provider>, 
-    document.getElementById('root'));
+// ReactDOM.render(
+//     <Provider store={store}>
+//         <ReduxApp />
+//     </Provider>, 
+//     document.getElementById('root'));
 
